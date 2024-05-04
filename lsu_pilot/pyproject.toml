@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lsu-pilot"
+version = "0.1.0"
+description = ""
+authors = ["John Liu <stoic.llama@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+python-telegram-bot = "^21.1.1"
+openai = "1.13.3"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
